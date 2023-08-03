@@ -148,3 +148,52 @@ button{
   align-self: flex-end;
   font-weight: bold;
 }
+
+.call{
+  display: flex;
+  justify-content: center;
+  margin: 60px auto;
+}
+
+.containercall{
+  background-color: #3882F6;
+  width: 80%;
+  display: flex;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.left{
+  flex: 2;
+}
+
+.ctitle{
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.ctext{
+  color: #E5E7EB;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.right button{
+  border-color: #E5E7EB;
+  border-style: solid;
+  font-size: 12px;
+}
+
+.footer {
+ text-align: center;
+ background-color: #1F2937;
+ color: gray;
+ font-size: 12px;
+ padding: 20px;
+}
