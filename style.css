@@ -88,3 +88,40 @@ button{
   margin-top: 10px;
   font-size: 18px;
 }
+
+.sec2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  gap: 20px;
+}
+
+.box2{
+  max-width: 100px;
+}
+
+.box2 .imgs{
+  border-color: #3882F6;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+}
+
+.title2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+
